@@ -85,8 +85,8 @@ export default function Contact()
                     customToast("success", "Email sent successfully!");
                 }}
             >
-                <input type="email" name="emailAddress" required maxLength={500} placeholder="Your email" className="h-14 px-4 rounded-lg borderBlack transition-all dark:bg-gray-900 dark:bg-opacity-80 dark:focus:bg-gray-700 dark:outline-none" />
-                <textarea name="emailMessage" required maxLength={500} placeholder="Your message" className="h-[20rem] my-3 rounded-lg borderBlack p-4 transition-all dark:bg-gray-900 dark:bg-opacity-80 dark:focus:bg-gray-700 dark:outline-none" />
+                <input type="email" name="emailAddress" required maxLength={500} placeholder="Your email" className="h-14 px-4 rounded-lg borderBlack transition-all dark:text-white/80 dark:bg-gray-900 dark:bg-opacity-80 dark:focus:bg-gray-700 dark:outline-none" />
+                <textarea name="emailMessage" required maxLength={500} placeholder="Your message" className="h-[20rem] my-3 rounded-lg borderBlack p-4 transition-all dark:text-white/80 dark:bg-gray-900 dark:bg-opacity-80 dark:focus:bg-gray-700 dark:outline-none" />
                 <SubmitBtn />
             </form>
         </motion.section>
