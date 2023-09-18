@@ -15,9 +15,10 @@ export default function Home()
             <Intro />
             <Divider />
             <About />
+            <Experience />
             <Projects />
             <Skills />
-            <Experience />
+            <Divider />
             <Contact />
         </main>
     )
